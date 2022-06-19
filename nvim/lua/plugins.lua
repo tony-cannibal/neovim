@@ -75,6 +75,11 @@ return packer.startup(function(use)
     use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"}
 
     use "JoosepAlviste/nvim-ts-context-commentstring"
+    use "nvim-telescope/telescope.nvim"
+    use "kyazdani42/nvim-tree.lua"
+    use "folke/which-key.nvim"
+    use "goolord/alpha-nvim"
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

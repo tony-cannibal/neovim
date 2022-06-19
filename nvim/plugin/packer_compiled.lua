@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "/home/luis/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/luis/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -134,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/luis/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/luis/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/luis/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -159,10 +169,20 @@ _G.packer_plugins = {
     path = "/home/luis/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/luis/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["vim-solarized8"] = {
     loaded = true,
     path = "/home/luis/.local/share/nvim/site/pack/packer/start/vim-solarized8",
     url = "https://github.com/lifepillar/vim-solarized8"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/luis/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 
